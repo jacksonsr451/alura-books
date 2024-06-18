@@ -27,9 +27,13 @@
 .lista-menu {
     display: none;
     position: absolute;
-    top:100%;
+    top: 100%;
 }
 
-.container__botao:checked ~ .lista-menu {
+.container__botao {
+    display: none;
+}
+
+.container__botao:checked~.lista-menu {
     display: block;
 }
